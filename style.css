@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* list-style: none; */
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: #F9C939;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 500px;
+    min-height: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+   margin-block: 10px;
+}
+.taskbox{
+    display: flex;
+}
+input{
+    width: 75%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-block: 10px;
+} 
+button{
+    padding: 10px;
+    font-size: 1rem;
+    margin-block: 10px;
+}
+ul{
+    padding-inline: 30px;
+}
+li{
+    
+    padding-block: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: auto;
+}
+#deletetasks{
+ width: 95px;
+position: relative;
+left: 80%;
+    display: block;
+    
+}
